@@ -1,0 +1,1 @@
+get-process | ConvertTo-Html -Property  Id, PriorityClass, Name |out-file C:\Command\process2.html
