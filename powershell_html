@@ -1,1 +1,7 @@
+# get, convert and save to html file:
 get-process | ConvertTo-Html -Property  Id, PriorityClass, Name |out-file C:\Command\process2.html
+
+# open html file:
+invoke-item C:\command\process2.html
+
+
