@@ -1,0 +1,9 @@
+function get-filestwo 
+{
+  param(
+    [string]$path,
+  [string]$extension
+  )
+Get-ChildItem -path $path | Where-Object -Property Extension -eq $extension
+
+}
