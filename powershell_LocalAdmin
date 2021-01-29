@@ -1,0 +1,1 @@
+add-localgroupmember -group "administrators" -Member "username"  
